@@ -30,6 +30,10 @@ footer, header, hgroup, menu, nav, section {
 }
 html{
 	height:100%;
+	overflow: scroll;
+}
+a{
+	list-style: none;
 }
 body {
 	list-style: none;
@@ -61,6 +65,9 @@ a:hover{color:#C81623;}
 #header{
 	height:1.6rem;
 }
+a{
+	color:#000;
+}
 #header-nav{
 	position: fixed;
 	top:0;
@@ -88,6 +95,7 @@ a:hover{color:#C81623;}
 	width:100%;
 	height:1.84rem;
 	background-color:#f7f7f7;
+	margin-top: 1.84rem;
 }
 #footer-nav ul{
 	width:100%;

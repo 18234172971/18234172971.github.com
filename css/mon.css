@@ -14,7 +14,7 @@
 	padding: 10px 25px;
 	background: #fff;
 }
-.wheel>div{
+.wheel>a{
 	border: 1px solid #797979;
 	height: 101px;
 }
